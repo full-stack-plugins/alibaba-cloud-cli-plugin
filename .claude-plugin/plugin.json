@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alibaba-cloud-cli",
+  "version": "0.1.0",
+  "description": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+  "author": {
+    "name": "PartMe.AI"
+  },
+  "homepage": "https://github.com/full-stack-plugins/alibaba-cloud-cli-plugin",
+  "repository": "https://github.com/full-stack-plugins/alibaba-cloud-cli-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "alibaba-cloud",
+    "aliyun",
+    "aliyun-cli",
+    "cloud",
+    "ecs",
+    "oss",
+    "ram"
+  ]
+}
