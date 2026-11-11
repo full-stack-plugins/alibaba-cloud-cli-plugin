@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "alibaba-cloud-cli",
+    "description": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations."
+  }
+}

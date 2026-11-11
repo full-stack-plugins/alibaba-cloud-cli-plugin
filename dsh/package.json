@@ -1,0 +1,35 @@
+{
+  "name": "alibaba-cloud-cli",
+  "version": "0.1.0",
+  "description": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*": "./locale/*"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "README.md",
+    "locale"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "alibaba-cloud",
+    "aliyun",
+    "aliyun-cli",
+    "cloud",
+    "ecs",
+    "oss",
+    "ram"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "private": true
+}
